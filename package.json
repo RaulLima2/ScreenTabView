@@ -1,6 +1,6 @@
 {
   "main": "node_modules/expo/AppEntry.js",
-"homepage": "http://RaulLima2.github.io/ScreenTabView",
+"homepage": "http://raullima2.github.io/ScreenTabView",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
