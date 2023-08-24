@@ -2,10 +2,13 @@
   "main": "node_modules/expo/AppEntry.js",
 "homepage": "http://raullima2.github.io/ScreenTabView",
   "scripts": {
-    "start": "expo --openssl-legacy-provider  start",
+    "start": "expo --openssl-legacy-provider start",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
+"deploy":"gh-pages -d web",
+"predeploy":"expo export:web",
+"
   },
   "dependencies": {
     "@expo/vector-icons": "^13.0.0",
