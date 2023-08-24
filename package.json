@@ -6,8 +6,9 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
       "web": "expo start --web",
-  "deploy":"gh-pages -d web",
-  "predeploy":"expo export:web"
+  "deploy":"gh-pages -d build",
+	"predeploy": "npm run build"
+  "build":"expo export:web"
   },
   "dependencies": {
     "@expo/vector-icons": "^13.0.0",
