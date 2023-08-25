@@ -1,22 +1,22 @@
 {
   "main": "node_modules/expo/AppEntry.js",
-"homepage": "http://raullima2.github.io/ScreenTabView",
+  "homepage": "https://raullima2.github.io/ScreenTabView",
   "scripts": {
-    "start": "expo --openssl-legacy-provider start",
+    "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-      "web": "expo start --web",
-  "deploy":"gh-pages -d build",
-	"predeploy": "npm run build"
-  "build":"expo export:web"
+    "web": "expo start --web",
+    "deploy": "gh-pages -d web-build",
+    "predeploy": "npm run build",
+    "build": "expo export:web"
   },
   "dependencies": {
     "@expo/vector-icons": "^13.0.0",
-    "@expo/webpack-config": "^0.17.0",
+    "@expo/webpack-config": "^18.1.2",
     "@react-navigation/native": "6.0.10",
     "@react-navigation/native-stack": "6.6.1",
     "@react-navigation/stack": "*",
-    "expo": "~46.0.21",
+    "expo": "^44.0.6",
     "expo-status-bar": "~1.4.0",
     "react": "18.0.0",
     "react-dom": "18.0.0",
@@ -30,7 +30,7 @@
     "react-native-web": "~0.18.7"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9",
+    "@babel/core": "^7.20.0",
     "gh-pages": "^6.0.0"
   },
   "private": true
